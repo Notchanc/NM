@@ -1,0 +1,33 @@
+1) Bisection Method vs. Regula Falsi Method
+
+Bisection Method cuts the interval in half every time, making it slower but always reliable.
+
+Regula Falsi Method uses a smarter guess based on the function values, making it faster but sometimes slower in special cases.
+
+
+2) Bisection & Regula Falsi vs. Newton-Raphson Method
+
+Bisection & Regula Falsi work without needing derivatives, but they can be slower.
+
+Newton-Raphson needs a derivative but is much faster if the initial guess is good.
+
+
+3) Gauss Elimination vs. L.U. Decomposition
+
+Gauss Elimination solves a system of equations step by step but has to be repeated for different solutions.
+
+L.U. Decomposition breaks the matrix into simpler parts, making repeated solutions faster.
+
+
+4) Trapezoidal Method vs. Simpson’s ⅓ Rule
+
+Trapezoidal Method connects points with straight lines, making it simpler but less accurate.
+
+Simpson’s ⅓ Rule fits curves to the points, giving better accuracy with fewer calculations.
+
+
+5) Euler’s Method vs. Runge-Kutta Method
+
+Euler’s Method is the simplest way to approximate solutions but can be inaccurate.
+
+Runge-Kutta improves accuracy by taking better steps without making things too complex.
