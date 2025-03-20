@@ -1,0 +1,79 @@
+1) Bisection Method
+
+Always works if the function changes sign in the interval.
+
+Simple and easy to understand.
+
+Guarantees convergence (it will always find a root eventually).
+
+
+2) Regula Falsi Method (False Position Method)
+
+Faster than the bisection method.
+
+Always converges if the function changes sign.
+
+More accurate than bisection in fewer steps.
+
+
+3) Newton-Raphson Method
+
+Very fast if the initial guess is good.
+
+Works well for most functions.
+
+Requires fewer iterations than bisection and regula falsi.
+
+
+4) Gauss Elimination Method
+
+Solves systems of linear equations efficiently.
+
+Works for any number of equations and variables.
+
+Can be used for both small and large systems.
+
+
+5) L.U. Decomposition Method
+
+Faster than Gauss Elimination for multiple solutions.
+
+Saves time when solving equations with the same coefficient matrix.
+
+Useful in numerical computations and programming.
+
+
+6) Trapezoidal Method
+
+Simple and easy to apply for integration.
+
+Works well for smooth functions.
+
+More accurate than the basic rectangle method.
+
+
+7) Simpson’s ⅓ Rule
+
+More accurate than the trapezoidal method.
+
+Works well for both simple and complex functions.
+
+Requires fewer calculations for the same accuracy.
+
+
+8) Euler’s Method
+
+Simple and easy for solving differential equations.
+
+Good for an initial rough estimate.
+
+Can be used as a base for improved methods.
+
+
+9) Runge-Kutta Method
+
+More accurate than Euler’s method.
+
+Works well for many differential equations.
+
+Provides a balance between accuracy and speed.
